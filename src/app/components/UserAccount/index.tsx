@@ -37,7 +37,7 @@ const UserAccount = () => {
       <div className="form">
         <div className="flex items-center gap-[20px]">
           <input
-            className="w-[400px] p-[10px] rounded"
+            className="w-[400px] p-[10px] rounded dark:text-gray-800"
             type="text"
             value={address}
             onChange={(e: any) => setAddress(e.target.value)}
